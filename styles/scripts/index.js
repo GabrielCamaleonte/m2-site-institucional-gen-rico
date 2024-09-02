@@ -13,3 +13,11 @@ function closeModal(e){
     var modalContainer = document.querySelector('#modalContainer');
     modalContainer.classList.remove('visivel');
 }
+
+var btnCloseModal = document.querySelector('#inscript');
+btnCloseModal.addEventListener('click', closeModal);
+
+function closeModal(e){
+    var modalContainer = document.querySelector('#modalContainer');
+    modalContainer.classList.remove('visivel');
+}
